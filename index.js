@@ -93,3 +93,11 @@ else{
 // As you ARE LOgged in plz verify your email as we know your email is not verified
 
 
+// Ternary operator 
+
+let x= 10;
+let y= 20;
+
+ x>y ? console.log('x is greater') : console.log( "y is greater")
+
+//  y is greater
