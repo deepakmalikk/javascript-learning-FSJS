@@ -48,3 +48,20 @@ console.log(obj)
 console.log(obj.phn)
 
 // 829888888
+
+
+// Discount percantage code
+
+let price = 2999;
+
+let mrp = 3999;
+
+let dperc =(( mrp -price ) / mrp) *100;
+
+console.log(dperc)
+// 25.006251562890725
+
+let round = Math.round(dperc);
+
+console.log(round);
+// 25
