@@ -65,3 +65,31 @@ let round = Math.round(dperc);
 
 console.log(round);
 // 25
+
+
+// User Login code using if else
+
+let userLoggedIn = true;
+let emailverified = false;
+
+if(userLoggedIn && emailverified == true){
+    console.log(
+        `Here is your Dashboard !! Hope you will enjoy it. `
+    )
+
+}
+else if (userLoggedIn || emailverified == true){ 
+    console.log(
+        ` As you ARE LOgged in plz verify your email as we know your email is not verified
+        `
+    )
+}
+else{
+    console.log(
+        `Create New Account`
+    );
+}
+
+// As you ARE LOgged in plz verify your email as we know your email is not verified
+
+
