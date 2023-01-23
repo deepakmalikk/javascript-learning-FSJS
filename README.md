@@ -24,9 +24,9 @@ eg: a = 80, name = 'deepak'
 *there are three keywords that are used to declare a variable that are **VAR LET CONST.***
 
 
-**3. operation**
+**3. operation/ Operator**
 
-**It** is an action that is carried out to accomplish a given task.
+**It** is used to perform different mathamtical and logical actions.
 
 *There are three type of operation  __arithmetic, logical, and relational__*
 
@@ -35,8 +35,8 @@ eg: +,-,*,/,%,++,-- and so on ...
 
 **4. Decision**
 
-**It** allows the program to make a decision and change its behavior based on that decision.
-``     
+**It** allows the program to make a Choice.
+    
     
     if(condition){
         statment;
