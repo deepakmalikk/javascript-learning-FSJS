@@ -64,4 +64,35 @@ ___**if, else, else if**___ are used to execute a specified block of code if the
 
     If condition is true then statment1 will execute. Otherwise, statment2 will execute.
 
- **5. function**  
+    
+**Switch statment**
+
+> It is used to choose one option from multiple cases.
+
+>switch used to select one of many blocks of code to be executed.
+
+
+   
+    switch(expression){
+ 
+     case 'one':
+            statment1;
+             break;
+     case 'two':
+            statment2;
+             break;
+     default:
+            statment ..;
+              break;
+    }
+
+___break___ it is used to come out of switch case.
+
+
+Differnce between if else and switch block: 
+
+If-else statment is used to choose between two options.
+
+but switch case statment is used to choose between number of options.
+
+  
