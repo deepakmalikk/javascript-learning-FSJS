@@ -209,4 +209,11 @@ __16. toString() =__ it convert array into string.
 
         output:- deepak, malik , maa
 
+    
+**Math Object methods** 
+
+__*Every object have it's own property and methods.__
+
+
+
         
