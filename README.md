@@ -115,3 +115,98 @@ array works based on index and that index will start from 0.
     }
 
 
+**Array Methods** 
+
+__1. length =__  It is used to return the total length of array.
+
+__2. push() =__  it is used to push element into an array at the end.
+***push() method changes the length of the array.***
+
+
+__3. pop() =__  it is used to delete the last element of an array.
+***pop() method changes the original array.***
+***push() method returns the new length.***
+
+__4. slice(starting index, end index+1) =__ it is used to get array elements from given statring index upto end index. End index will be excuded.
+
+__slice() method does not change the original array.__
+
+__5. splice(starting index, how many values to modify, value1 ,value2, value n) =__ it is used to modify an array with values and also used to delete the values based on the values to modify if it is 0 then value will not be deleted only added in array but if that same value is more than zero than based on that value will be deleted.
+
+
+
+__splice() method overwrites the original array.__
+
+    const arr= [ 1, 2, 3, 5, 6]
+    arr.splice(2, 0, 'deepak', 'malik')
+
+    output:- [1, 2, 'deepak, 'malik', 3, 5, 6]
+
+    arr.splice(2, 2, 'deepak', 'malik')
+
+    output:- [1, 2, 'deepak, 'malik',6]
+
+
+__6. concat() =__ used to concatenate two different arrays.
+
+        const arr1 = [1,2,3]
+        const arr2 = [4,5,6]
+        const arr3 = [7,8,9]
+
+        const arr = arr1.concat(arr2,arr3)
+
+        output:- [1,2,3,4,5,6,7,8,9]
+
+__concat() method returns a new array, containing the joined arrays.__
+
+__concat() method does not change the existing arrays.__
+
+__7. sort() =__  sorts the elements as strings in alphabetical and ascending order.
+
+***sort() overwrites the original array.***
+
+__8. reverse() =__ used to reverse the array values. 
+
+__reverse() method overwrites the original array.__
+
+__9. map() =__  map() creates a new array from calling a function for every array element. it also calls a function once for each element in an array.It does not execute the function for empty elements.
+
+__map() does not change the original array.__
+
+__10. shift() =__ It is used to remove starting value of an array. 
+ 
+ __shift() method changes the original array.__
+
+__shift() method returns the shifted element.__
+
+
+__11. unshift() =__ it is used to adds new elements to the beginning of an array.
+
+**unshift() method overwrites the original array.**
+
+__12. split() =__ it splits a string into an array of substrings.If (" ") is used as separator, the string is split between words.
+
+**split() method returns the new array.**
+**split() method does not change the original string.**
+
+**toString() method does not change the original array.**
+
+__13. indexOf() =__ it returns the first index (position) of a specified value.it also returns -1 if the value is not found.it starts at a specified index and searches from left to right.
+
+__14. copyWithin() =__ it copies array elements to another position in the array.
+
+**copyWithin() method overwrites the existing values**
+__copyWithin() method does not add items to the array.__
+
+__15. includes() =__ it returns true if an array contains a specified value.
+otherwise returns false if the value is not found.It is also case sensitive.
+
+__16. toString() =__ it convert array into string.
+
+        let arr =['deepak', 'malik', 'maa'];
+
+        console.log(arr.toString());
+
+        output:- deepak, malik , maa
+
+        
