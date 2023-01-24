@@ -95,4 +95,23 @@ If-else statment is used to choose between two options.
 
 but switch case statment is used to choose between number of options.
 
-  
+___**Non-Primitive data Types**___  used to store multiple values.
+
+**Array** it is used to store muliple values of different data types.
+
+    const arr = [1, 'deepak', true]
+
+array works based on index and that index will start from 0.
+
+**object** it is also used to store multiple values based on key value pair.
+ 
+    let obj = {
+    key: value,
+    //example
+    name: 'deepak',
+    age: 22,
+    phn: 8296374058,
+    admin: true
+    }
+
+
