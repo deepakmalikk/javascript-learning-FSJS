@@ -36,6 +36,9 @@ eg: +,-,*,/,%,++,-- and so on ...
 **4. Decision**
 
 **It** allows the program to make a Choice.
+
+
+___**if, else, else if**___ are used to execute a specified block of code if the condition is true.
     
     
     if(condition){
@@ -54,5 +57,11 @@ eg: +,-,*,/,%,++,-- and so on ...
     else{
         statment3;
     }
+
+**Ternary Operator**
+    
+    condition ? statment1 : statment2 ;
+
+    If condition is true then statment1 will execute. Otherwise, statment2 will execute.
 
  **5. function**  
