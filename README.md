@@ -133,6 +133,15 @@ __slice() method does not change the original array.__
 
 __5. splice(starting index, how many values to modify, value1 ,value2, value n) =__ it is used to modify an array with values and also used to delete the values based on the values to modify if it is 0 then value will not be deleted only added in array but if that same value is more than zero than based on that value will be deleted.
 
+**splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.**
+
+***splice(start)***
+
+***splice(start, deleteCount)***
+
+***splice(start, deleteCount, item1)***
+
+***splice(start, deleteCount, item1, item2, itemN)***
 
 
 __splice() method overwrites the original array.__
