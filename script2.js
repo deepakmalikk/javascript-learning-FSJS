@@ -45,11 +45,78 @@ console.log(arr.slice(3,5))
 // [ 'malik', true ]
 
 
-console.log(arr.splice(2,'deepu','singh'))
-// []
+console.log(arr.splice(2, 'deepu','singh'))
+// []  removed elements
 console.log(arr)
-// [ 1, 2, 'singh', 'deepak', 'malik', true ]
-console.log(arr.splice(2,2,'deepu','singh'))
-// [ 'singh', 'deepak' ]
+// [ 1, 2, 'singh', 'deepak', 'malik', true ]  new array
+console.log(arr.splice(2,2,'hello','bye'))
+// [ 'singh', 'deepak' ]  removed elements
 console.log(arr)
-//[ 1, 2, 'deepu', 'singh', 'malik', true ]
+// [ 1, 2, 'hello', 'bye', 'malik', true ]     new array
+console.log(arr.splice(2))
+// [ 'hello', 'bye', 'malik', true ]  removed elements
+console.log(arr)
+// [ 1, 2 ]   new array
+
+
+console.log('----------------------------------- \n')
+
+const newarr = [0, 1, 2, 3, 4, 5, 6]
+
+console.log(newarr.shift())
+// 0  first element removed from array
+console.log(newarr)
+// [ 1, 2, 3, 4, 5, 6 ]
+
+
+console.log(newarr.unshift(-1))
+//  7   new arrray size
+console.log(newarr)
+/*[
+  -1, 1, 2, 3,
+   4, 5, 6
+] new array  */
+
+
+console.log(newarr.includes('3'))
+// false   case senstivie
+console.log(newarr.includes(3))
+//  true
+
+console.log(newarr.copyWithin(2,4,6))
+/* [
+  -1, 1, 4, 5,
+   4, 5, 6
+]*/
+
+console.log(newarr.indexOf(4))
+// 2
+console.log(newarr.lastIndexOf(4))
+// 4
+
+console.log(newarr.toString())
+// -1,1,4,5,4,5,6
+
+console.log(newarr.sort())
+/* [
+  -1, 1, 4, 4,
+   5, 5, 6
+] */
+
+console.log(newarr.reverse())
+/* [
+  6, 5,  5, 4,
+  4, 1, -1
+]
+*/
+
+console.log(newarr.map(Math.sqrt))
+// [ 2.449489742783178, 2.23606797749979, 2.23606797749979, 2, 2, 1, NaN ]
+
+console.log(newarr)
+/* [
+  6, 5,  5, 4,
+  4, 1, -1
+]
+*/
+
