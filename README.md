@@ -1,7 +1,9 @@
-__What is Programming ?__
- - When th program start taking decision based on the condition.
+**What is Programming ?**
 
- **Basic Of any Programming language**
+- When th program start taking decision based on the condition.
+
+**Basic Of any Programming language**
+
 1. Value
 2. variable
 3. operation
@@ -21,33 +23,29 @@ eg: 80 , 'deepak' ansd so on...
 
 eg: a = 80, name = 'deepak'
 
-*there are three keywords that are used to declare a variable that are **VAR LET CONST.***
-
+\*there are three keywords that are used to declare a variable that are **VAR LET CONST.\***
 
 **3. operation/ Operator**
 
 **It** is used to perform different mathamtical and logical actions.
 
-*There are three type of operation  __arithmetic, logical, and relational__*
+_There are three type of operation **arithmetic, logical, and relational**_
 
-eg: +,-,*,/,%,++,-- and so on ...
-
+eg: +,-,\*,/,%,++,-- and so on ...
 
 **4. Decision**
 
 **It** allows the program to make a Choice.
 
+**_**if, else, else if**_** are used to execute a specified block of code if the condition is true.
 
-___**if, else, else if**___ are used to execute a specified block of code if the condition is true.
-    
-    
     if(condition){
         statment;
     }
-``
-`` 
-       
-       
+
+`
+`
+
     if(condition1){
         statment1;
     }
@@ -59,22 +57,19 @@ ___**if, else, else if**___ are used to execute a specified block of code if the
     }
 
 **Ternary Operator**
-    
+
     condition ? statment1 : statment2 ;
 
     If condition is true then statment1 will execute. Otherwise, statment2 will execute.
 
-    
 **Switch statment**
 
 > It is used to choose one option from multiple cases.
 
->switch used to select one of many blocks of code to be executed.
+> switch used to select one of many blocks of code to be executed.
 
-
-   
     switch(expression){
- 
+
      case 'one':
             statment1;
              break;
@@ -86,16 +81,15 @@ ___**if, else, else if**___ are used to execute a specified block of code if the
               break;
     }
 
-___break___ it is used to come out of switch case.
+**_break_** it is used to come out of switch case.
 
-
-Differnce between if else and switch block: 
+Differnce between if else and switch block:
 
 If-else statment is used to choose between two options.
 
 but switch case statment is used to choose between number of options.
 
-___**Non-Primitive data Types**___  used to store multiple values.
+**_**Non-Primitive data Types**_** used to store multiple values.
 
 **Array** it is used to store muliple values of different data types.
 
@@ -104,7 +98,7 @@ ___**Non-Primitive data Types**___  used to store multiple values.
 array works based on index and that index will start from 0.
 
 **object** it is also used to store multiple values based on key value pair.
- 
+
     let obj = {
     key: value,
     //example
@@ -114,37 +108,34 @@ array works based on index and that index will start from 0.
     admin: true
     }
 
+**Array Methods**
 
-**Array Methods** 
+**1. length =** It is used to return the total length of array.
 
-__1. length =__  It is used to return the total length of array.
+**2. push() =** it is used to push element into an array at the end.
+**_push() method changes the length of the array._**
 
-__2. push() =__  it is used to push element into an array at the end.
-***push() method changes the length of the array.***
+**3. pop() =** it is used to delete the last element of an array.
+**_pop() method changes the original array._**
+**_push() method returns the new length._**
 
+**4. slice(starting index, end index+1) =** it is used to get array elements from given statring index upto end index. End index will be excuded.
 
-__3. pop() =__  it is used to delete the last element of an array.
-***pop() method changes the original array.***
-***push() method returns the new length.***
+**slice() method does not change the original array.**
 
-__4. slice(starting index, end index+1) =__ it is used to get array elements from given statring index upto end index. End index will be excuded.
-
-__slice() method does not change the original array.__
-
-__5. splice(starting index, how many values to modify, value1 ,value2, value n) =__ it is used to modify an array with values and also used to delete the values based on the values to modify if it is 0 then value will not be deleted only added in array but if that same value is more than zero than based on that value will be deleted.
+**5. splice(starting index, how many values to modify, value1 ,value2, value n) =** it is used to modify an array with values and also used to delete the values based on the values to modify if it is 0 then value will not be deleted only added in array but if that same value is more than zero than based on that value will be deleted.
 
 **splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.**
 
-***splice(start)***
+**_splice(start)_**
 
-***splice(start, deleteCount)***
+**_splice(start, deleteCount)_**
 
-***splice(start, deleteCount, item1)***
+**_splice(start, deleteCount, item1)_**
 
-***splice(start, deleteCount, item1, item2, itemN)***
+**_splice(start, deleteCount, item1, item2, itemN)_**
 
-
-__splice() method overwrites the original array.__
+**splice() method overwrites the original array.**
 
     const arr= [ 1, 2, 3, 5, 6]
     arr.splice(2, 0, 'deepak', 'malik')
@@ -155,8 +146,7 @@ __splice() method overwrites the original array.__
 
     output:- [1, 2, 'deepak, 'malik',6]
 
-
-__6. concat() =__ used to concatenate two different arrays.
+**6. concat() =** used to concatenate two different arrays.
 
         const arr1 = [1,2,3]
         const arr2 = [4,5,6]
@@ -166,51 +156,50 @@ __6. concat() =__ used to concatenate two different arrays.
 
         output:- [1,2,3,4,5,6,7,8,9]
 
-__concat() method returns a new array, containing the joined arrays.__
+**concat() method returns a new array, containing the joined arrays.**
 
-__concat() method does not change the existing arrays.__
+**concat() method does not change the existing arrays.**
 
-__7. sort() =__  sorts the elements as strings in alphabetical and ascending order.
+**7. sort() =** sorts the elements as strings in alphabetical and ascending order.
 
-***sort() overwrites the original array.***
+**_sort() overwrites the original array._**
 
-__8. reverse() =__ used to reverse the array values. 
+**8. reverse() =** used to reverse the array values.
 
-__reverse() method overwrites the original array.__
+**reverse() method overwrites the original array.**
 
-__9. map() =__  map() creates a new array from calling a function for every array element. it also calls a function once for each element in an array.It does not execute the function for empty elements.
+**9. map() =** map() creates a new array from calling a function for every array element. it also calls a function once for each element in an array.It does not execute the function for empty elements.
 
-__map() does not change the original array.__
+**map() does not change the original array.**
 
-__10. shift() =__ It is used to remove starting value of an array. 
- 
- __shift() method changes the original array.__
+**10. shift() =** It is used to remove starting value of an array.
 
-__shift() method returns the shifted element.__
+**shift() method changes the original array.**
 
+**shift() method returns the shifted element.**
 
-__11. unshift() =__ it is used to adds new elements to the beginning of an array.
+**11. unshift() =** it is used to adds new elements to the beginning of an array.
 
 **unshift() method overwrites the original array.**
 
-__12. split() =__ it splits a string into an array of substrings.If (" ") is used as separator, the string is split between words.
+**12. split() =** it splits a string into an array of substrings.If (" ") is used as separator, the string is split between words.
 
 **split() method returns the new array.**
 **split() method does not change the original string.**
 
 **toString() method does not change the original array.**
 
-__13. indexOf() =__ it returns the first index (position) of a specified value.it also returns -1 if the value is not found.it starts at a specified index and searches from left to right.
+**13. indexOf() =** it returns the first index (position) of a specified value.it also returns -1 if the value is not found.it starts at a specified index and searches from left to right.
 
-__14. copyWithin() =__ it copies array elements to another position in the array.
+**14. copyWithin() =** it copies array elements to another position in the array.
 
 **copyWithin() method overwrites the existing values**
-__copyWithin() method does not add items to the array.__
+**copyWithin() method does not add items to the array.**
 
-__15. includes() =__ it returns true if an array contains a specified value.
+**15. includes() =** it returns true if an array contains a specified value.
 otherwise returns false if the value is not found.It is also case sensitive.
 
-__16. toString() =__ it convert array into string.
+**16. toString() =** it convert array into string.
 
         let arr =['deepak', 'malik', 'maa'];
 
@@ -218,11 +207,109 @@ __16. toString() =__ it convert array into string.
 
         output:- deepak, malik , maa
 
-    
-**Math Object methods** 
+**\*Every object have it's own property and methods.**
 
-__*Every object have it's own property and methods.__
+**Math Object**
 
+It allows to perfom mathmatical tasks on number.
 
+Unlike other objects, the Math object has no constructor.
 
-        
+The Math object is static.
+
+All methods and properties can be used without creating a Math object first.
+
+**Math Property**
+
+**_syntax for any Math property is :_** **Math.property.**
+
+**1. PI =** used to perform pi operation.
+
+    const pi= Math.PI
+    console.log(pi)
+    //3.1444
+
+**Math Methods**
+
+**_syntax for any Math method is :_** **Math.method(number)**
+
+**1. round() =** It return nearest integer to a number.
+
+eg:-
+
+    console.log(Math.round(3.14))
+
+    //3
+
+**2. ceil() =** It return the smallest integer greater than or equal to number.
+
+eg:-
+
+    console.log(Math.ceil(3.14))
+
+    //4
+
+**3. floor() =** It return the largest integer less than or equal to number.
+
+eg:-
+
+    console.log(Math.floor(3.14))
+
+    //3
+
+**4. min() =** It return the smallest number among all the numbers.
+eg:-
+
+    console.log(Math.min(3,4,5))
+
+    //3
+
+**5. max() =** It return the largest number among all the numbers.
+
+eg:-
+
+    console.log(Math.max(3,4,5))
+
+    //5
+
+**6. sqrt() =** used to perform square root of numbers.
+
+eg:-
+
+    console.log(Math.sqrt(4))
+
+    //2
+
+**7. abs() =** it return the absloute positive value.
+
+eg:-
+
+    console.log(Math.abs(-4))
+
+    //4
+
+**8. pow() =** Returns base x to the exponent power y (that is, xy).
+
+eg:-
+
+    console.log(Math.pow(2,2))
+
+    console.log(Math.pow(3,2))
+
+    //4
+    //9
+
+**9. random() =** used to generate random number from 0 to 0.99999
+
+    eg:-
+
+    console.log(Math.random())
+    //0.9845647
+    //everytime output will be differnet
+
+**10. sin() =** Returns the sign of the x, indicating whether x is positive, negative, or zero.
+
+    eg:-
+
+    console.log(Math.sin(0))
+    //0
