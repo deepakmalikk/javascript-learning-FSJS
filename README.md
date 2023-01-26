@@ -313,3 +313,7 @@ eg:-
 
     console.log(Math.sin(0))
     //0
+
+
+**5. Loop** It is used to ittrate/repeat block of code.
+
