@@ -353,3 +353,26 @@ eg:-
         //code
     }
 
+**6. functions** functions are used to make code reusable.It is a block of code designed to perform a particular task. A JavaScript function is executed when "something" invokes it (calls it).
+
+**function keyword is used to create function.**
+
+**Syntax :-**
+    
+    //function defination
+    function name_of_function (){ 
+
+        //code
+
+    }
+    //function call
+    name_of_function();
+
+function with parameters
+
+    function name_of_function (parameters){
+
+        //code
+
+    }
+    name_of_function(argumnets)
