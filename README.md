@@ -399,3 +399,16 @@ function with parameters
     }
     let hold_x = name_of_function()
 
+**Arrow Function**
+it Return Value by Default. Arrow functions cannot be used as constructors.
+
+**Syntax :-**
+
+    //function defination
+     let fun = () => {
+
+        //code
+
+    }
+    //arrow function call
+    fun()
