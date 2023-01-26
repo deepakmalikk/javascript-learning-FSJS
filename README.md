@@ -342,3 +342,14 @@ eg:-
 
         //code
       }while(condition)
+
+
+**_**For of loop :-**_** This loop is used for array itteration.it iterates and logs values that iterable , as an array.Instead of used normal for loop for an array we can use it. Everytime it will ittrate through an array one by one.
+
+**Syntax :-**
+
+    for(let variable_name of array_name){
+
+        //code
+    }
+
