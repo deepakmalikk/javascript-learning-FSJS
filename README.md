@@ -37,7 +37,7 @@ eg: +,-,\*,/,%,++,-- and so on ...
 
 **It** allows the program to make a Choice.
 
-**_**if, else, else if**_** are used to execute a specified block of code if the condition is true.
+**\_**if, else, else if**\_** are used to execute a specified block of code if the condition is true.
 
     if(condition){
         statment;
@@ -89,7 +89,7 @@ If-else statment is used to choose between two options.
 
 but switch case statment is used to choose between number of options.
 
-**_**Non-Primitive data Types**_** used to store multiple values.
+**\_**Non-Primitive data Types**\_** used to store multiple values.
 
 **Array** it is used to store muliple values of different data types.
 
@@ -314,6 +314,31 @@ eg:-
     console.log(Math.sin(0))
     //0
 
-
 **5. Loop** It is used to ittrate/repeat block of code.
 
+**_**for loop :-**_** It repeats until a specified condition evaluates to false.
+
+**Syntax :-**
+
+    for(initalization; condition; incr/decr){
+
+        //code
+    }
+
+**_**While loop :-**_** while statement creates a loop that executes a specified statement **as long as** the test condition evaluates to true.
+
+**Syntax :-**
+
+    while(condition){
+
+        //code
+    }
+
+**_**Do While loop :-**_** do...while statement creates a loop that executes a specified statement **until** the test condition evaluates to false.It will execute once even the condition is false.
+
+**Syntax :-**
+
+    do{
+
+        //code
+      }while(condition)
