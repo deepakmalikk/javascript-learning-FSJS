@@ -412,3 +412,10 @@ it Return Value by Default. Arrow functions cannot be used as constructors.
     }
     //arrow function call
     fun()
+
+**Truthy value and falsy value**
+
+**truthy value :-** A truthy value is a value that is considered true when encountered in a Boolean context. All values are truthy unless they are defined as falsy. That is, all values are truthy except false , 0 , -0 , 0n , "" , null , undefined , and NaN.
+
+**falsy value :-**
+A falsy (sometimes written falsey) value is a value that is considered false when encountered in a Boolean context.
