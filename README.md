@@ -419,3 +419,14 @@ it Return Value by Default. Arrow functions cannot be used as constructors.
 
 **falsy value :-**
 A falsy (sometimes written falsey) value is a value that is considered false when encountered in a Boolean context.
+
+**Date Object**
+it is used to work with dates and times.
+
+We have to use date consturctor to get acess to all methods of date object.
+
+**Syntax :-**
+
+    let date = new Date()
+
+    console.log(date.getMinutes)
