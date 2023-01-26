@@ -316,7 +316,7 @@ eg:-
 
 **5. Loop** It is used to ittrate/repeat block of code.
 
-**_**for loop :-**_** It repeats until a specified condition evaluates to false.
+**\_**for loop :-**\_** It repeats until a specified condition evaluates to false.
 
 **Syntax :-**
 
@@ -325,7 +325,7 @@ eg:-
         //code
     }
 
-**_**While loop :-**_** while statement creates a loop that executes a specified statement **as long as** the test condition evaluates to true.
+**\_**While loop :-**\_** while statement creates a loop that executes a specified statement **as long as** the test condition evaluates to true.
 
 **Syntax :-**
 
@@ -334,7 +334,7 @@ eg:-
         //code
     }
 
-**_**Do While loop :-**_** do...while statement creates a loop that executes a specified statement **until** the test condition evaluates to false.It will execute once even the condition is false.
+**\_**Do While loop :-**\_** do...while statement creates a loop that executes a specified statement **until** the test condition evaluates to false.It will execute once even the condition is false.
 
 **Syntax :-**
 
@@ -343,8 +343,7 @@ eg:-
         //code
       }while(condition)
 
-
-**_**For of loop :-**_** This loop is used for array itteration.it iterates and logs values that iterable , as an array.Instead of used normal for loop for an array we can use it. Everytime it will ittrate through an array one by one.
+**\_**For of loop :-**\_** This loop is used for array itteration.it iterates and logs values that iterable , as an array.Instead of used normal for loop for an array we can use it. Everytime it will ittrate through an array one by one.
 
 **Syntax :-**
 
@@ -354,13 +353,14 @@ eg:-
     }
 
 **6. functions** functions are used to make code reusable.It is a block of code designed to perform a particular task. A JavaScript function is executed when "something" invokes it (calls it).
+function code is clean and easy to read code.
 
 **function keyword is used to create function.**
 
 **Syntax :-**
-    
+
     //function defination
-    function name_of_function (){ 
+    function name_of_function (){
 
         //code
 
@@ -376,3 +376,26 @@ function with parameters
 
     }
     name_of_function(argumnets)
+
+**when you don't know how many arguments we use ...(spread operator)**
+
+    function name_of_function (...args){
+
+        //code
+
+    }
+    name_of_function(argumnets1,arg2,arg3,arg N)
+
+**_function returning something_**
+
+**return is use to get value from function so that you can use that value and work further with the same**
+
+    function name_of_function (){
+
+        //code
+
+        return x;
+
+    }
+    let hold_x = name_of_function()
+
