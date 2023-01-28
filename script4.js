@@ -232,3 +232,49 @@ console.log(date)
 
 console.log(date.toDateString())
 // Sat Jan 28 2023
+
+
+
+// truthy and falsy value 
+
+if(0 == true){
+    console.log('0 is truethy value')
+}
+else{
+    console.log('0 is not truthy value ')
+}
+// 0 is not truthy value 
+
+if(NaN== true){
+    console.log('NaN is truethy value')
+}
+else{
+    console.log('NaN is not truthy value ')
+}
+// NaN is not truthy value 
+
+if(''== true){
+    console.log('empty string is truethy value')
+}
+else{
+    console.log('empty string  is not truthy value ')
+}
+// empty string  is not truthy value
+
+if([]== true){
+    console.log('empty array is truethy value')
+}
+else{
+    console.log('empty array is not truthy value ')
+}
+// empty array is not truthy value
+
+
+if(undefined== true){
+    console.log('undefined is truethy value')
+}
+else{
+    console.log('undefined is not truthy value ')
+}
+
+// undefined is not truthy value 
