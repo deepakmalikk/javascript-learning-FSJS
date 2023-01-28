@@ -154,3 +154,14 @@ for(let value=0; value<=10; value++)
 6
 7
 */
+
+// Function in javascript
+
+function greet()    //function defination
+{
+    console.log('hello from function')
+}
+
+greet();     //function calling
+
+// hello from function
