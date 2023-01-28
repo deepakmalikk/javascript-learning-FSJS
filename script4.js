@@ -96,3 +96,14 @@ do{
 // value is 1
 // value is 2
 // value is 3
+
+// for of loop for an array
+
+let arrs =['deepak','malik','hello','bye']
+let newarrs =[]
+
+for(let value of arrs){
+    newarrs.push(value)
+}
+console.log(newarrs)
+// [ 'deepak', 'malik', 'hello', 'bye' ]
