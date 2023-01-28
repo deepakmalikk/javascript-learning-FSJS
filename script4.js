@@ -82,3 +82,17 @@ while(i<=5){
 4
 5
 */
+
+// Do while
+
+let j=0;
+
+do{
+    console.log(`value is ${j}`)
+     j++;
+}while(j<=3)
+
+// value is 0
+// value is 1
+// value is 2
+// value is 3
