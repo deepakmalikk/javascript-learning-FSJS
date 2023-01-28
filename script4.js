@@ -216,3 +216,7 @@ let funs =(x,y)=>{
 }
 console.log(funs(4,4))
 // 8
+
+// Date Object 
+
+let date = new Date()
