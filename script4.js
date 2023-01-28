@@ -220,3 +220,15 @@ console.log(funs(4,4))
 // Date Object 
 
 let date = new Date()
+
+console.log(date.getDate())
+// 28
+console.log(date.getDay())
+//6
+console.log(date.getFullYear())
+// 2023
+console.log(date)
+// 2023-01-28T08:47:50.940Z
+
+console.log(date.toDateString())
+// Sat Jan 28 2023
