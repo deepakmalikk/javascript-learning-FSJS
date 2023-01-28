@@ -53,3 +53,32 @@ for(let i=0; i<arr1.length; i++){
 }
 console.log(newarr1)
 // [ 'hello', 'bye', 'namste', 'ram ram' ]
+
+// Todo program:-  add in empty array from other array doing there square root
+
+var firstarr = [4,9,16,18]
+ 
+var secondarr = [ ]
+
+for(let i=0; i<=firstarr.length-1; i++){
+    secondarr[i]= Math.sqrt(firstarr[i])
+}
+console.log(secondarr)
+// [ 2, 3, 4, 4.242640687119285 ]
+
+
+// while loop
+
+let i = 0;
+
+while(i<=5){
+    console.log(i);
+    i++;
+}
+/*0
+1
+2
+3
+4
+5
+*/
