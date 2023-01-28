@@ -165,3 +165,54 @@ function greet()    //function defination
 greet();     //function calling
 
 // hello from function
+
+
+// function with parameter
+
+function add(x){
+    let y= x+5;
+    console.log(y);
+}
+add(4)
+
+// 9
+
+// function returning some value 
+
+function message(){
+   
+    return `Every seed can be a tree`
+
+}
+console.log(message())
+
+// Every seed can be a tree
+
+// spread operator (...)  when you don't know how many parameter will come
+
+function manipulation(...args){
+    let sum =0;
+    for(let value of args){
+     sum = sum + value;
+    }
+    console.log(sum)
+}
+manipulation(1,2,3,4,5,6,7,8,9,10)
+
+// 55
+
+// arrow function 
+
+let fun = ()=>console.log("hey!! arrow function this side")
+
+fun()
+
+// hey!! arrow function this side
+
+let funs =(x,y)=>{
+    let z =x+y;
+    return z;
+
+}
+console.log(funs(4,4))
+// 8
