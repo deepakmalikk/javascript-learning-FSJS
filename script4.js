@@ -107,3 +107,50 @@ for(let value of arrs){
 }
 console.log(newarrs)
 // [ 'deepak', 'malik', 'hello', 'bye' ]
+
+
+// switch statment 
+
+let element = 'admin'
+
+switch(element){
+    case 'superadmin': 
+        console.log('superadmin is here ');
+        break;
+    case 'admin': 
+        console.log('admin is here ');
+        break;
+    case 'student': 
+        console.log('student is here')
+        break;
+    default: 
+        console.log('no user ')
+}
+
+// admin is here
+
+
+// break and continue 
+
+for(let value=0; value<=10; value++)
+{
+    if(value==2){
+        continue;
+    }
+
+    if(value==8){
+        break;
+    }
+
+    
+    console.log(value)
+
+}
+/* 0
+1
+3
+4
+5
+6
+7
+*/
