@@ -27,3 +27,15 @@ let user= {
 for(let values in user){
     console.log(`key is ${values} and value is ${user[values]}`)
 }
+
+// HOF
+
+function callback (n){
+    return 2+n;
+}
+
+let newfun =(callback,x)=>{
+  return callback(x)+x
+}
+
+console.log(newfun(callback,3))
