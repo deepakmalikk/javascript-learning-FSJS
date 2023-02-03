@@ -109,3 +109,13 @@ setInterval(bye,3000)
 // Bye from javascript
 
 
+// eg 2:
+
+setInterval(() => {
+    console.log("bye from setInterval")
+}, 3000);
+
+// after every 3 second
+
+// bye from setInterval
+// bye from setInterval
