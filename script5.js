@@ -95,27 +95,51 @@
 // // After 3 second output
 // // hello from setTimeout
 
-// 3. setInterval(function,count)
+// // 3. setInterval(function,count)
 
-//eg 1: 
-function bye() {
-    console.log("Bye from javascript")
-}
+// //eg 1: 
+// function bye() {
+//     console.log("Bye from javascript")
+// }
 
-setInterval(bye, 3000)
+// setInterval(bye, 3000)
 
-// IN evrery 3 second 
-// Bye from javascript
-// Bye from javascript
+// // IN evrery 3 second 
+// // Bye from javascript
+// // Bye from javascript
 
 
-// eg 2:
+// // eg 2:
 
-setInterval(() => {
-    console.log("bye from setInterval")
-}, 3000);
+// setInterval(() => {
+//     console.log("bye from setInterval")
+// }, 3000);
 
-// after every 3 second
+// // after every 3 second
 
-// bye from setInterval
-// bye from setInterval
+// // bye from setInterval
+// // bye from setInterval
+
+// 3. map(function)
+
+const arr =[1,2,3,4,5]
+
+arr.map((x)=>{
+    console.log(x**2)
+})
+/*
+ 1
+4
+9
+16
+25
+*/
+
+let myarr = ['deepak','anita','god']
+
+let result = myarr.map((x)=>{
+    return x.toUpperCase()
+}) 
+
+console.log(result)
+// [ 'DEEPAK', 'ANITA', 'GOD' ]
