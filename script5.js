@@ -85,3 +85,12 @@ setTimeout(hello,3000)
 
 // After 3 second o/p 
 // Hello From javascript
+
+// eg 2: 
+
+setTimeout(()=>{
+    console.log("hello from setTimeout ")
+},3000)
+
+// After 3 second output
+// hello from setTimeout 
