@@ -120,26 +120,34 @@
 // // bye from setInterval
 // // bye from setInterval
 
-// 3. map(function)
+// // 4. map(function)
 
-const arr = [1, 2, 3, 4, 5]
+// const arr = [1, 2, 3, 4, 5]
 
-arr.map((x) => {
-    console.log(x ** 2)
+// arr.map((x) => {
+//     console.log(x ** 2)
+// })
+// /*
+//  1
+// 4
+// 9
+// 16
+// 25
+// */
+
+// let myarr = ['deepak', 'anita', 'god']
+
+// let result = myarr.map((x) => {
+//     return x.toUpperCase()
+// })
+
+// console.log(result)
+// // [ 'DEEPAK', 'ANITA', 'GOD' ]
+
+// 5. every()
+
+let arrs=['dr','mr','mrs']
+
+arrs.every((x)=>{
+    console.log(x.includes('dr'))
 })
-/*
- 1
-4
-9
-16
-25
-*/
-
-let myarr = ['deepak', 'anita', 'god']
-
-let result = myarr.map((x) => {
-    return x.toUpperCase()
-})
-
-console.log(result)
-// [ 'DEEPAK', 'ANITA', 'GOD' ]
