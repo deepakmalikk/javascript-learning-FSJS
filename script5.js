@@ -122,10 +122,10 @@
 
 // 3. map(function)
 
-const arr =[1,2,3,4,5]
+const arr = [1, 2, 3, 4, 5]
 
-arr.map((x)=>{
-    console.log(x**2)
+arr.map((x) => {
+    console.log(x ** 2)
 })
 /*
  1
@@ -135,11 +135,11 @@ arr.map((x)=>{
 25
 */
 
-let myarr = ['deepak','anita','god']
+let myarr = ['deepak', 'anita', 'god']
 
-let result = myarr.map((x)=>{
+let result = myarr.map((x) => {
     return x.toUpperCase()
-}) 
+})
 
 console.log(result)
 // [ 'DEEPAK', 'ANITA', 'GOD' ]
