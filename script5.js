@@ -72,25 +72,40 @@
 
 // console.log(newfun(callback, 3))
 
-// 8
+// // 8
 
-//  2. setTimeout(function,count)
+// //  2. setTimeout(function,count)
 
-// eg1:
-function hello(){
-    console.log("Hello From javascript");
+// // eg1:
+// function hello(){
+//     console.log("Hello From javascript");
+// }
+
+// setTimeout(hello,3000)
+
+// // After 3 second o/p 
+// // Hello From javascript
+
+// // eg 2: 
+
+// setTimeout(()=>{
+//     console.log("hello from setTimeout ")
+// },3000)
+
+// // After 3 second output
+// // hello from setTimeout
+
+// 3. setInterval(function,count)
+
+//eg 1: 
+function bye (){
+    console.log("Bye from javascript")
 }
 
-setTimeout(hello,3000)
+setInterval(bye,3000)
 
-// After 3 second o/p 
-// Hello From javascript
+// IN evrery 3 second 
+// Bye from javascript
+// Bye from javascript
 
-// eg 2: 
 
-setTimeout(()=>{
-    console.log("hello from setTimeout ")
-},3000)
-
-// After 3 second output
-// hello from setTimeout 
