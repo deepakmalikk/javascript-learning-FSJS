@@ -98,11 +98,11 @@
 // 3. setInterval(function,count)
 
 //eg 1: 
-function bye (){
+function bye() {
     console.log("Bye from javascript")
 }
 
-setInterval(bye,3000)
+setInterval(bye, 3000)
 
 // IN evrery 3 second 
 // Bye from javascript
