@@ -1,11 +1,11 @@
 // object :-
 
-let obj ={
+let obj = {
     name: 'deepak',
     lastName: 'malik',
     user: 'admin',
     // methods on object
-    call: function (){
+    call: function () {
         return `let's call ${this.name}`
     }
 }
@@ -40,13 +40,13 @@ console.log(Object.values(obj))
 // [ 'deepak', 'malik', 'admin', [Function: call] ]
 
 
-let user= {
+let user = {
     productName: 'Laptop',
     prodID: '12345679',
     prodValue: '2450$'
 }
 
-for(let values in user){
+for (let values in user) {
     console.log(`key is ${values} and value is ${user[values]}`)
 }
 
@@ -62,14 +62,14 @@ key is prodValue and value is 2450$
 
 
 // callback function
-function callback (n){
-    return 2+n;
+function callback(n) {
+    return 2 + n;
 }
 
-let newfun =(callback,x)=>{
-  return callback(x)+x
+let newfun = (callback, x) => {
+    return callback(x) + x
 }
 
-console.log(newfun(callback,3))
+console.log(newfun(callback, 3))
 
 // 8
