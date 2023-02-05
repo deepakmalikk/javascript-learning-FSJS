@@ -177,7 +177,7 @@
 // let data = [1,2,3,'deepak','malik',true]
 
 // data.filter((value)=>{
-
+   
 //     console.log(value.length==5)
 // })
 // /*
@@ -191,9 +191,9 @@
 
 // 8. reduce()
 
-let sumarr = [0, 1, 2, 3, 4, 5, 6]
+let sumarr =[0,1,2,3,4,5,6]
 
-let sums = sumarr.reduce((acc, cur) =>
-    acc + cur, 2)
+let sums= sumarr.reduce((acc,cur)=>
+    acc+cur,2)
 console.log(sums)
 // 23 = 2+0+1+2+3+4+5+6
