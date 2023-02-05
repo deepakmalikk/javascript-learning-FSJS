@@ -599,4 +599,70 @@ number to string conversion
      
     let res= b.toString()
 
+****
 
+
+
+**DeStructuring** :- It is a process of unpacking the array and assigning each value to different/distnict variables.
+
+**_Ex:-_**
+
+    let arr =[1, 2, 3, 4]
+
+    let [a, b, c, d] = arr
+
+    console.log(a)
+    console.log(b)
+    console.log(c)
+    console.log(d)
+
+    <!-- 
+    1
+    2
+    3
+    4     -->
+
+
+
+**When we want to remove some values**
+
+    let arr =[1, 2, 3, 4]
+
+    let [a, , c, ,] = arr
+    console.log(a)
+    console.log(c)
+
+    <!-- 1
+    3
+     -->
+     Here 2 and 4 will be removed b/c we haven't assigned any values to it.
+
+**When we have different values in different arrays**
+
+    let fullstack= [['html', 'css', 'js'] ['nodejs', 'mongodb', 'express']]
+
+    let [frontend, backend] = fullstack;
+
+    console.log(frontend)
+    console.log(backend)
+
+    <!-- 
+    html , css, js 
+    nodejs, mongodb, express
+    -->
+
+
+**When we don't know the length of array and we want speicifed values to b assigned rest we don't want**
+
+    let arr =[1, 2, 3, 4, 5, 6]
+
+    let [a,b, ...rest] = arr
+    console.log(a)
+    console.log(b)
+    console.log(rest)
+
+    <!-- 
+    1
+    2
+    [3, 4, 5, 6]
+     -->
