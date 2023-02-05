@@ -447,4 +447,24 @@ __1.) Callback()__ :- when a function is passed as parameter then it is know as 
     var result=  arr.every(isEven)
     <!-- here isEven is passed as parameter to every High order function -->
 
-__2.) forEach()__ 
+__2.) forEach()__ :- It takes a function in it and will irttrate over an array.But it is not able to modify the array.
+***Ex:-***
+
+    let arr =[1,2,3,4]
+    arr.forEach((element)=>{
+        console.log(element)
+    })
+    <!-- It will print all the elements -->
+
+Other syntax of forEach that also help in getting element value, index value as well as array at the same time 
+
+***Ex:-***
+
+    let arr =[1,2]
+    arr.forEach((elemnt,value,array)=>{
+        console.log(elemnt,value,array)
+
+    })
+    <!-- o/p :-  1 , 0 , [1,2]
+                 2 , 1 , [1,2]
+    -->
