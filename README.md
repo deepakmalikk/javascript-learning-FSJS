@@ -539,3 +539,27 @@ Another syntax example :-
      false
      true
      false -->
+
+**7.)reduce()** :- This function runs a reducer which will ittrate over array values and return us a single value output. The reducer walks through the array element-by-element, at each step adding the current array value to the result from the previous step (this result is the running sum of all the previous steps) — until there are no more elements to add. 
+
+
+***Synatx*** :-
+
+    reduce((accumulator, currentValue) => { /* … */ })
+
+    reduce((accumulator, currentValue, currentIndex) => { /* … */ })
+
+    reduce((accumulator, currentValue, currentIndex, array) => { /* … */ })
+
+**_Ex:-_**
+
+    let sumarr =[0,1,2,3,4,5,6]
+
+    let sums= sumarr.reduce((acc,cur)=>
+        acc+cur,2)
+    console.log(sums)
+
+    // 23 = 2+0+1+2+3+4+5+6
+
+   
+   
