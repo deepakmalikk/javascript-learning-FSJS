@@ -156,18 +156,35 @@
 
 // // true
 
-// 6. forEach()
+// // 6. forEach()
 
-let arrss = [2,4,6,8,10]
+// let arrss = [2,4,6,8,10]
 
-arrss.forEach((x)=>{
-    console.log(x);
+// arrss.forEach((x)=>{
+//     console.log(x);
+// })
+// /*
+// 2
+// 4
+// 6
+// 8
+// 10
+// */
+
+
+// 7. filter()
+
+let data = [1,2,3,'deepak','malik',true]
+
+data.filter((value)=>{
+   
+    console.log(value.length==5)
 })
 /*
-2
-4
-6
-8
-10
+false
+false
+false
+false
+true
+false
 */
-
