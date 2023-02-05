@@ -232,3 +232,56 @@ let nu = 100
 let stri=nu.toString()
 console.log(typeof stri)
 // string
+
+
+
+// Destructuring
+
+let arrss =[1, 2, 3, 4, 5]
+
+let [p, q, r, s, t]=arrss
+console.log(p)
+console.log(q)
+console.log(r)
+console.log(s)
+console.log(t)
+/* 
+1
+2
+3
+4
+5
+*/
+
+
+// want to remove vslue
+
+let datavalue =[1,2,3,4]
+
+let [c, , v, ,] =datavalue
+
+console.log(c)
+// 1
+console.log(v)
+// 3
+
+
+
+// When we don't know the length of array
+
+let unknown = [1, 2, 3, 4, 5, 6,7,8, 9,10]
+
+let [val1, val2, val3, ...rest]= unknown
+
+console.log(val1)
+// 1
+console.log(val2)
+// 2
+console.log(val3)
+// 3
+console.log(rest)
+/* [
+  4, 5,  6, 7,
+  8, 9, 10
+]
+*/
