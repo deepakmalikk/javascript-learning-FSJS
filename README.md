@@ -500,12 +500,12 @@ Another syntax example :-
 
     setInterval(test,3000);
 
-**4.) map()** :- This function is used to itterate through an array and also it will __modify__ the array.
+**5.) map()** :- This function is used to itterate through an array and also it will __modify__ the array.
 
 
 **_Ex:-_**
 
-    let arr =[1, 2, 3,]
+    let arr =[1, 2, 3]
 
     arr.map((x)=>{
     x=x-1;
@@ -518,3 +518,24 @@ Another syntax example :-
     1
     2 
     -->
+
+
+**6.) filter()** :- This function is used to filter out particular values based on the function condition given to it.
+
+**_Ex:-_**
+
+   
+    let data = [1,2,3,'deepak','malik',true]
+
+    data.filter((value)=>{
+   
+     console.log(value.length==5)
+    })
+
+    <!-- o/p:- 
+     false
+     false
+     false
+     false
+     true
+     false -->
