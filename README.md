@@ -430,3 +430,9 @@ We have to use date consturctor to get acess to all methods of date object.
     let date = new Date()
 
     console.log(date.getMinutes)
+
+**Functional Programming**
+
+___HOF (High Order Function)___ :- When a function takes another function as an argument and return a function is know as High order function.
+
+
