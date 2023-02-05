@@ -122,7 +122,7 @@
 
 // // 4. map(function)
 
-// const arr = [1, 2, 3, 4, 5]
+// const arr1 = [1, 2, 3, 4, 5]
 
 // arr.map((x) => {
 //     console.log(x ** 2)
@@ -144,14 +144,30 @@
 // console.log(result)
 // // [ 'DEEPAK', 'ANITA', 'GOD' ]
 
-// 5. every()
+// // 5. every()
 
-let arr = [2, 4, 6, 8]
+// let arr = [2, 4, 6, 8]
 
-let isEven = ele => {
-    return ele % 2 == 0
-}
-let res = arr.every(isEven)
-console.log(res)
+// let isEven = ele => {
+//     return ele % 2 == 0
+// }
+// let res = arr.every(isEven)
+// console.log(res)
 
-// true
+// // true
+
+// 6. forEach()
+
+let arrss = [2,4,6,8,10]
+
+arrss.forEach((x)=>{
+    console.log(x);
+})
+/*
+2
+4
+6
+8
+10
+*/
+
