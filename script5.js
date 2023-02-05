@@ -197,3 +197,38 @@ let sums= sumarr.reduce((acc,cur)=>
     acc+cur,2)
 console.log(sums)
 // 23 = 2+0+1+2+3+4+5+6
+
+
+// String to number 
+let a = "2"
+console.log(typeof a)
+
+// string
+
+
+let numb = Number(a);
+console.log(numb)
+// 2
+console.log(typeof numb)
+// number
+
+
+// number to string
+
+let numbb = 10
+
+console.log(typeof numbb)
+// number
+let str = String(numbb)
+console.log(str)
+10
+console.log(typeof str)
+// string
+
+
+// OTHER MEthod For string
+let nu = 100
+
+let stri=nu.toString()
+console.log(typeof stri)
+// string
