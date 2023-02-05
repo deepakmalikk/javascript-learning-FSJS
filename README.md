@@ -433,12 +433,11 @@ We have to use date consturctor to get acess to all methods of date object.
 
 **Functional Programming**
 
-___HOF (High Order Function)___ :- When a function takes another function as an argument and return a function is know as High order function.
+**_HOF (High Order Function)_** :- When a function takes another function as an argument and return a function is know as High order function.
 
+**1.) Callback()** :- when a function is passed as parameter then it is know as callback.
 
-__1.) Callback()__ :- when a function is passed as parameter then it is know as callback.
-
-***Ex:-***
+**_Ex:-_**
 
     let arr =[1,2,3,4]
     let isEven =(ele)=>{
@@ -447,8 +446,8 @@ __1.) Callback()__ :- when a function is passed as parameter then it is know as 
     var result=  arr.every(isEven)
     <!-- here isEven is passed as parameter to every High order function -->
 
-__2.) forEach()__ :- It takes a function in it and will irttrate over an array.But it is not able to modify the array.
-***Ex:-***
+**2.) forEach()** :- It takes a function in it and will irttrate over an array.But it is not able to modify the array.
+**_Ex:-_**
 
     let arr =[1,2,3,4]
     arr.forEach((element)=>{
@@ -456,9 +455,9 @@ __2.) forEach()__ :- It takes a function in it and will irttrate over an array.B
     })
     <!-- It will print all the elements -->
 
-Other syntax of forEach that also help in getting element value, index value as well as array at the same time 
+Other syntax of forEach that also help in getting element value, index value as well as array at the same time
 
-***Ex:-***
+**_Ex:-_**
 
     let arr =[1,2]
     arr.forEach((elemnt,value,array)=>{
@@ -468,3 +467,35 @@ Other syntax of forEach that also help in getting element value, index value as 
     <!-- o/p :-  1 , 0 , [1,2]
                  2 , 1 , [1,2]
     -->
+
+**3.) setTimeout()** :- This function will take function and time as a parameter.It will execute specified block of code or function after counter time completes.THis function is used when we want an output after certain time.
+
+**_Ex:-_**
+
+    setTimeout(()=>{
+        console.log("hello");
+    },3000)
+
+Another syntax example :-
+
+    function test(){
+        console.log("Hello from test")
+    }
+
+    setTimeout(test,3000);
+
+**4.) setInterval()** :- This function is used when we want our output to come after certain time interval it will follow same pattern untill we clear the Interval time for that we use **clearInterval()** function.
+
+**_Ex:-_**
+
+    setInterval(()=>{
+        console.log("hello");
+    },3000)
+
+Another syntax example :-
+
+    function test(){
+        console.log("Hello from test")
+    }
+
+    setInterval(test,3000);
