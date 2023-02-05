@@ -436,3 +436,15 @@ We have to use date consturctor to get acess to all methods of date object.
 ___HOF (High Order Function)___ :- When a function takes another function as an argument and return a function is know as High order function.
 
 
+__1.) Callback()__ :- when a function is passed as parameter then it is know as callback.
+
+***Ex:-***
+
+    let arr =[1,2,3,4]
+    let isEven =(ele)=>{
+        return ele % 2 == 0;
+    }
+    var result=  arr.every(isEven)
+    <!-- here isEven is passed as parameter to every High order function -->
+
+__2.) forEach()__ 
