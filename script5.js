@@ -146,8 +146,12 @@
 
 // 5. every()
 
-let arrs=['dr','mr','mrs']
+let arr = [2, 4, 6, 8]
 
-arrs.every((x)=>{
-    console.log(x.includes('dr'))
-})
+let isEven = ele => {
+    return ele % 2 == 0
+}
+let res = arr.every(isEven)
+console.log(res)
+
+// true
