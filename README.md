@@ -572,5 +572,31 @@ Another syntax example :-
     const array1 = [1, 30, 39, 29, 10, 13];
 
     console.log(array1.every(isBelowThreshold));
-    
+
     // Expected output: true
+
+
+
+
+**Changing DATA TYPE**
+
+When we convert value from one date type of to another data type that is called as type casting or data type conversion
+
+**_Ex:-_**
+
+    let a= "2";
+
+    let num = number(a);  // string to number conversion
+
+
+number to string conversion
+
+    let b= 2;
+
+    let str = string(b);
+
+    OR
+     
+    let res= b.toString()
+
+
