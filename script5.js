@@ -172,19 +172,28 @@
 // */
 
 
-// 7. filter()
+// // 7. filter()
 
-let data = [1,2,3,'deepak','malik',true]
+// let data = [1,2,3,'deepak','malik',true]
 
-data.filter((value)=>{
-   
-    console.log(value.length==5)
-})
-/*
-false
-false
-false
-false
-true
-false
-*/
+// data.filter((value)=>{
+
+//     console.log(value.length==5)
+// })
+// /*
+// false
+// false
+// false
+// false
+// true
+// false
+// */
+
+// 8. reduce()
+
+let sumarr = [0, 1, 2, 3, 4, 5, 6]
+
+let sums = sumarr.reduce((acc, cur) =>
+    acc + cur, 2)
+console.log(sums)
+// 23 = 2+0+1+2+3+4+5+6
