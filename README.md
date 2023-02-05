@@ -499,3 +499,22 @@ Another syntax example :-
     }
 
     setInterval(test,3000);
+
+**4.) map()** :- This function is used to itterate through an array and also it will __modify__ the array.
+
+
+**_Ex:-_**
+
+    let arr =[1, 2, 3,]
+
+    arr.map((x)=>{
+    x=x-1;
+     console.log(x)
+    })
+
+    <!-- 
+    op:- 
+    0
+    1
+    2 
+    -->
