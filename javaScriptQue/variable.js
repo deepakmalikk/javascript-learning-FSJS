@@ -15,3 +15,35 @@ Variable one value is "learnCodeOnline" and it's type is "string"
 Variable one value is  "undefined" and it's type is "undefined"
 Variable one value is  "null" and it's type is "object"
 */
+
+
+
+
+
+
+// 2. Declare variables to store your first name, last name, marital status, country and age and display them using interploation method.
+
+
+var firstName = "deepak";
+var lastName = "malik";
+var maritalStatus = "unmarried";
+var country = "India";
+var age = "22";
+
+console.log(
+    `
+    My firstName is ${firstName} 
+    lastName is ${lastName}
+    maritalStatus is ${maritalStatus}
+    I live in ${country}
+    At present my age is ${age}
+    `
+)
+
+/*
+    My firstName is deepak
+    lastName is malik
+    maritalStatus is unmarried
+    I live in India
+    At present my age is 22
+*/
