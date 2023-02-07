@@ -147,4 +147,46 @@ console.log(trimmed)
 
 
 
+//10. Boolean value is either true or false.
+// - Write three JavaScript statement which provide truthy value.
+// - Write three JavaScript statement which provide falsy value.
+
+let a = 10; 
+let b = 20;
+let c = 30;
+
+let true1 = a < b;
+console.log(true1)
+
+let true2 = a < c;
+console.log(true2)
+
+let true3 = a && b && c != 0;
+console.log(true3)
+
+/*
+true
+true
+true
+ */
+
+
+let false1 = a > b;
+console.log(false1)
+
+let false2 = a > c;
+console.log(false2)
+
+let false3 = a && b && c == 0;
+console.log(false3)
+
+/*
+false
+false
+false
+*/
+
+
+
+
 
