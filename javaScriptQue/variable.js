@@ -71,3 +71,22 @@ console.log(check)
 
 // true
 
+
+
+
+// 5. Split the string into an array using split() method
+
+let myStr = "WebDeveloper"
+
+let split = myStr.split("")
+console.log(split)
+
+/*
+[
+  'W', 'e', 'b', 'D',
+  'e', 'v', 'e', 'l',
+  'o', 'p', 'e', 'r'
+]
+*/
+
+
