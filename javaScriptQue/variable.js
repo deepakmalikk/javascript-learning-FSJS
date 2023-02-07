@@ -9,13 +9,11 @@ console.log(`Variable one value is "${variable1}" and it's type is "${typeof var
 console.log(`Variable one value is  "${variable2}" and it's type is "${typeof variable2}"`)
 console.log(`Variable one value is  "${variable3}" and it's type is "${typeof variable3}"`)
 
-
 /* 
 Variable one value is "learnCodeOnline" and it's type is "string"
 Variable one value is  "undefined" and it's type is "undefined"
 Variable one value is  "null" and it's type is "object"
 */
-
 
 
 
@@ -47,3 +45,21 @@ console.log(
     I live in India
     At present my age is 22
 */
+
+
+
+
+// 3. Decalre a varibale and assign value to it and change all the string characters to capital letters using toUpperCase() method.
+
+
+let variableIs = "hello"
+
+let variableInUpper = variableIs.toUpperCase()
+console.log(variableInUpper)
+
+// HELLO
+
+
+
+
+
