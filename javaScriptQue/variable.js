@@ -110,3 +110,15 @@ console.log(newSplit)
 ]
 */
 
+
+
+
+// 7. Use lastIndexOf to determine the position of the last occurrence of a script.
+
+let position = "This script is of Javascript";
+
+let occurrence = position.lastIndexOf("script");
+console.log(occurrence)
+
+// 22
+
