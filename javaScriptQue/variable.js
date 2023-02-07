@@ -136,5 +136,15 @@ console.log(pos)
 
 
 
+// 9. Use trim() to remove any trailing whitespace at the beginning and the end of a string.
+
+let whitespaceStr = "    Hello This is whiteSpace trailing    "
+let trimmed = whitespaceStr.trim()
+console.log(trimmed)
+
+// Hello This is whiteSpace trailing
+
+
+
 
 
