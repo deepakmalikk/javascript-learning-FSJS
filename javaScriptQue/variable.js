@@ -90,3 +90,23 @@ console.log(split)
 */
 
 
+
+
+// 6. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
+
+let newStr = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' 
+let newSplit = newStr.split(",")
+console.log(newSplit)
+
+/*
+[
+  'Facebook',
+  ' Google',
+  ' Microsoft',
+  ' Apple',
+  ' IBM',
+  ' Oracle',
+  ' Amazon'
+]
+*/
+
