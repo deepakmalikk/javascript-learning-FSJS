@@ -346,3 +346,21 @@ console.log(now.toUTCString())
 // Wed, 08 Feb 2023 11:01:04 GMT
 console.log(now.toLocaleString())
 // 08/02/2023, 16:28:14
+
+
+
+
+// 18. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
+
+let aage = 15; 
+if(aage >=18){
+  console.log("You are old enough to drive")
+}
+else{
+  console.log(
+    `wait for the ${18-aage} years
+    `
+  )
+}
+
+// wait for the 3 years
