@@ -302,3 +302,14 @@ let y2 = 10;
 
 let m =(y2-y1)/(x2-x1);
 console.log(m)
+// 2
+
+
+
+
+// 15. Calculate the slope, x-intercept and y-intercept of y = 2x -2
+
+let x = 5;
+ let y =2*x - 2;
+ console.log(y)
+//  8
