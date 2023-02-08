@@ -313,3 +313,18 @@ let x = 5;
  let y =2*x - 2;
  console.log(y)
 //  8
+
+
+
+
+// 16. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
+const pi = 3.14;
+let r = 3 ;
+
+let areaa = pi*r*r;
+console.log(areaa);
+// 28.259999999999998
+
+let circumference = 2 * pi * r; 
+console.log(circumference)
+// 18.84
