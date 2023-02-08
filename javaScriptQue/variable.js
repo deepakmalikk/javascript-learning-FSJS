@@ -229,6 +229,20 @@ console.log(4 === '4')
 console.log(4 !== 4)
 //false
 
+//  - Find the length of python and jargon and make a falsy comparison statement.
+let py = 'python';
+let jar = 'jargon';
+
+console.log(py.length,jar.length)
+// 6 6
+
+console.log(py.length > jar.length)
+// false
+
+
+/*
+
+*/
 
 
 
