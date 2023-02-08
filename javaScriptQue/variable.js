@@ -382,4 +382,41 @@ if(numb>0){
     `)
   }
 }
-// 20 is even number 
+// 20 is even number
+
+
+
+
+/*
+20. Write a code which can give grades to students according to theirs scores:
+    - 80-100, A
+    - 70-89, B
+    - 60-69, C
+    - 50-59, D
+    - 0-49, F
+
+*/
+
+let sub1 =50;
+let sub2 =70;
+let sub3 =80;
+
+let res = (sub1+sub2+sub3)/3
+console.log(Math.round(res))
+// 67
+if(res>=0 && res<50){
+  console.log("F grade")
+}
+else if(res>=50 && res<60){
+  console.log("D grade")
+}
+else if(res>=60 && res<70){
+  console.log("C grade")
+}
+else if(res>=70 && res<80){
+  console.log("B grade")
+}
+else{
+  console.log("A grade")
+}
+// C grade
