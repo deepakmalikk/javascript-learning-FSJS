@@ -364,3 +364,22 @@ else{
 }
 
 // wait for the 3 years
+
+
+
+
+
+// 19. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
+
+let numb = 20;
+
+if(numb>0){
+  if(numb%2 == 0){
+    console.log(`${numb} is even number `)
+  }
+  else{
+    console.log(`${numb} is not a even number
+    `)
+  }
+}
+// 20 is even number 
