@@ -277,3 +277,15 @@ console.log(date.getMinutes())
 
 console.log(Date.now())
 // 1675843599458   // seconds from 1 jan 1970 till 08 feb 2023
+
+
+
+
+
+// 13. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
+
+// let base = prompt("enter the base");
+// let height = prompt("enter the hehight");
+
+// let area =0.5 *base * height
+// console.log(area)
