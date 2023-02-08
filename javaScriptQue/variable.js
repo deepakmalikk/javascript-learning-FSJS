@@ -328,3 +328,21 @@ console.log(areaa);
 let circumference = 2 * pi * r; 
 console.log(circumference)
 // 18.84
+
+
+
+
+/*
+17. Create a human readable time format using the Date time object
+    - YYYY-MM-DD HH:mm
+    - DD-MM-YYYY HH:mm
+    - DD/MM/YYYY HH:mm
+
+*/
+let now = new Date();
+console.log(now.toISOString())
+// 2023-02-08T11:00:00.887Z
+console.log(now.toUTCString())
+// Wed, 08 Feb 2023 11:01:04 GMT
+console.log(now.toLocaleString())
+// 08/02/2023, 16:28:14
