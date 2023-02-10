@@ -454,3 +454,17 @@ else {
 
 
 
+// 22. Write a program which tells the number of days in a month.
+
+function daysInMonth (month, year) {
+  return new Date(year, month, 0).getDate();
+}
+
+// feb 
+console.log(daysInMonth(02,2023))
+
+// 28
+
+// july
+console.log(daysInMonth(07 ,2023))
+// 31
