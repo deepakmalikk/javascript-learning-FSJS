@@ -29,7 +29,7 @@ var country = "India";
 var age = "22";
 
 console.log(
-    `
+  `
     My firstName is ${firstName} 
     lastName is ${lastName}
     maritalStatus is ${maritalStatus}
@@ -94,7 +94,7 @@ console.log(split)
 
 // 6. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
 
-let newStr = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' 
+let newStr = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
 let newSplit = newStr.split(",")
 console.log(newSplit)
 
@@ -151,7 +151,7 @@ console.log(trimmed)
 // - Write three JavaScript statement which provide truthy value.
 // - Write three JavaScript statement which provide falsy value.
 
-let a = 10; 
+let a = 10;
 let b = 20;
 let c = 30;
 
@@ -206,9 +206,9 @@ false
 
 */
 console.log("-------------------------------------")
-console.log( 4 > 3)
+console.log(4 > 3)
 // true
-console.log( 4 >= 3)
+console.log(4 >= 3)
 // true
 console.log(4 < 3)
 //false
@@ -233,7 +233,7 @@ console.log(4 !== 4)
 let py = 'python';
 let jar = 'jargon';
 
-console.log(py.length,jar.length)
+console.log(py.length, jar.length)
 // 6 6
 
 console.log(py.length > jar.length)
@@ -300,7 +300,7 @@ let y1 = 2;
 let x2 = 6;
 let y2 = 10;
 
-let m =(y2-y1)/(x2-x1);
+let m = (y2 - y1) / (x2 - x1);
 console.log(m)
 // 2
 
@@ -310,8 +310,8 @@ console.log(m)
 // 15. Calculate the slope, x-intercept and y-intercept of y = 2x -2
 
 let x = 5;
- let y =2*x - 2;
- console.log(y)
+let y = 2 * x - 2;
+console.log(y)
 //  8
 
 
@@ -319,13 +319,13 @@ let x = 5;
 
 // 16. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 const pi = 3.14;
-let r = 3 ;
+let r = 3;
 
-let areaa = pi*r*r;
+let areaa = pi * r * r;
 console.log(areaa);
 // 28.259999999999998
 
-let circumference = 2 * pi * r; 
+let circumference = 2 * pi * r;
 console.log(circumference)
 // 18.84
 
@@ -352,13 +352,13 @@ console.log(now.toLocaleString())
 
 // 18. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
 
-let aage = 15; 
-if(aage >=18){
+let aage = 15;
+if (aage >= 18) {
   console.log("You are old enough to drive")
 }
-else{
+else {
   console.log(
-    `wait for the ${18-aage} years
+    `wait for the ${18 - aage} years
     `
   )
 }
@@ -373,11 +373,11 @@ else{
 
 let numb = 20;
 
-if(numb>0){
-  if(numb%2 == 0){
+if (numb > 0) {
+  if (numb % 2 == 0) {
     console.log(`${numb} is even number `)
   }
-  else{
+  else {
     console.log(`${numb} is not a even number
     `)
   }
@@ -397,26 +397,60 @@ if(numb>0){
 
 */
 
-let sub1 =50;
-let sub2 =70;
-let sub3 =80;
+let sub1 = 50;
+let sub2 = 70;
+let sub3 = 80;
 
-let res = (sub1+sub2+sub3)/3
+let res = (sub1 + sub2 + sub3) / 3
 console.log(Math.round(res))
 // 67
-if(res>=0 && res<50){
+if (res >= 0 && res < 50) {
   console.log("F grade")
 }
-else if(res>=50 && res<60){
+else if (res >= 50 && res < 60) {
   console.log("D grade")
 }
-else if(res>=60 && res<70){
+else if (res >= 60 && res < 70) {
   console.log("C grade")
 }
-else if(res>=70 && res<80){
+else if (res >= 70 && res < 80) {
   console.log("B grade")
 }
-else{
-  console.log("A grade")
+else {
+  +-
+    console.log("A grade")
 }
 // C grade
+
+
+
+
+/*
+21. Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
+    - September, October or November, the season is Autumn.
+    - December, January or February, the season is Winter.
+    - March, April or May, the season is Spring
+    - June, July or August, the season is Summer
+
+*/
+let user = 'December'
+if (user == 'September' || user == 'October' || user == 'November') {
+  console.log(`the season is Autumn`)
+}
+else if (user == 'December' || user == 'January' || user == 'February') {
+  console.log(
+    `the season is Winter.`
+  )
+}
+else if (user == 'March' || user == ' April' || user == 'May') {
+  console.log(` the season is Spring`)
+}
+else {
+  console.log(`the season is Summer`)
+}
+
+// the season is Winter.
+
+
+
+
