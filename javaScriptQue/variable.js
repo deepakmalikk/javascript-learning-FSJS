@@ -456,12 +456,12 @@ else {
 
 // 22. Write a program which tells the number of days in a month.
 
-function daysInMonth (month, year) {
+function daysInMonth(month, year) {
   return new Date(year, month, 0).getDate();
 }
 
 // feb 
-console.log(daysInMonth(02,2023))
+console.log(daysInMonth(02, 2023))
 
 // 28
 
@@ -472,5 +472,5 @@ console.log(daysInMonth(02,2023))
 
 // 23. Write a program which tells the number of days in a month, now consider leap year.
 
-console.log(daysInMonth(02,2024))
+console.log(daysInMonth(02, 2024))
 // 29
