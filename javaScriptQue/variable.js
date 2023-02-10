@@ -465,6 +465,12 @@ console.log(daysInMonth(02,2023))
 
 // 28
 
-// july
-console.log(daysInMonth(07 ,2023))
-// 31
+
+
+
+
+
+// 23. Write a program which tells the number of days in a month, now consider leap year.
+
+console.log(daysInMonth(02,2024))
+// 29
