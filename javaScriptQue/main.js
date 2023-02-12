@@ -595,3 +595,15 @@ else{
 
 
 // 34. Linear equation is calculated as follows: ax + by + c = 0. Write a function which calculates value of a linear equation, solveLinEquation.
+
+
+
+// 35. Write a functions which checks if all items are unique in the array.
+
+// let array =[1 , 2 ,3 ,1 ]
+
+// function unique(array){
+//     for(let i of array){
+        
+//     }
+// }
