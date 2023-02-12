@@ -525,3 +525,8 @@ console.log(landcountry)
   'Åland Islands'
 ]
 */
+
+// - Find the country containing the hightest number of characters in the countries array
+let longest = countryList.sort((a,b) => b.length - a.length)[0];
+console.log(longest)
+// United Kingdom of Great Britain and Northern Ireland (the)
