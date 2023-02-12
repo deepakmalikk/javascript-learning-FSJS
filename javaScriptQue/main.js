@@ -152,3 +152,28 @@ console.log(primearr)
   97
 ]
 */
+
+
+
+
+// 29. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+
+let p;
+let evensum=0
+let oddsum=0
+
+for(p=0; p<=100; p++){
+    if(p%2==0){
+
+        evensum =evensum+p;
+
+    }
+    else{
+        oddsum=oddsum+p;
+    }
+}
+console.log(`the sum of even numbers from 0-100 is ${evensum}`);
+console.log(`the sum of odd numbers from 0-100 is ${oddsum}`)
+
+// the sum of even numbers from 0-100 is 2550
+// the sum of odd numbers from 0-100 is 2500
