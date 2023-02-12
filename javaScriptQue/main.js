@@ -117,3 +117,38 @@ console.log(`comparing min-average ages and getting this answer using abs() meth
 let comapre2 =Math.abs(max-avgAge);
 console.log(`comparing max-average ages and getting this answer using abs() method ${comapre2}`)
 // comparing max-average ages and getting this answer using abs() method 4
+
+
+
+
+// 28. Use for loop to iterate from 0 to 100 and print only prime numbers
+let count=0
+let x,y 
+let primearr=[]
+for(y=2;y<=100;y++)
+{
+for( x=1;x<=y;x++)
+{
+  if(y%x==0)
+  count++
+  
+}
+
+if(count==2)
+
+primearr.push(y)
+count=0
+
+
+  
+}
+console.log(primearr)
+
+/*
+[
+   2,  3,  5,  7, 11, 13, 17, 19,
+  23, 29, 31, 37, 41, 43, 47, 53,
+  59, 61, 67, 71, 73, 79, 83, 89,
+  97
+]
+*/
