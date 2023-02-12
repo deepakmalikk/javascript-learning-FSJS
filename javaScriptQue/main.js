@@ -193,3 +193,29 @@ const getRanHex = size => {
 
 console.log(getRanHex(1));
 // e
+
+
+
+
+// 31. Sort the webTechs array and mernStack array
+// countries Array : https://gist.github.com/incredimike/1469814
+
+let webTech = ['html', 'css', 'javascript', 'react', 'tailwind', 'mongodb', 'redux', 'express'];
+let mernStack =['mongodb', 'express', 'redux', 'react', 'nodejs']
+console.log(webTech.sort());
+
+/*
+[
+  'css',
+  'express',
+  'html',
+  'javascript',
+  'mongodb',
+  'react',
+  'redux',
+  'tailwind'
+]
+*/
+console.log(mernStack.sort())
+
+// [ 'express', 'mongodb', 'nodejs', 'react', 'redux' ]
