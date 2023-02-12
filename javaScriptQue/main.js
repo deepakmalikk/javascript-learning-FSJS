@@ -530,3 +530,24 @@ console.log(landcountry)
 let longest = countryList.sort((a,b) => b.length - a.length)[0];
 console.log(longest)
 // United Kingdom of Great Britain and Northern Ireland (the)
+
+// - Extract all the countries containing only four characters from the countries array and print it as array
+for(let i of countryList){
+    if(i.length==4){
+        fourarr.push(i)
+    }
+}console.log(fourarr)
+
+/*
+[
+  'Chad', 'Cuba',
+  'Fiji', 'Guam',
+  'Iraq', 'Mali',
+  'Niue', 'Oman',
+  'Peru', 'Togo'
+]
+ */
+
+
+// - Extract all the countries containing two or more words from the countries array and print it as array
+// - Reverse the countries array and capitalize each country and stored it as an array
