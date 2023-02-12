@@ -177,3 +177,21 @@ console.log(`the sum of odd numbers from 0-100 is ${oddsum}`)
 
 // the sum of even numbers from 0-100 is 2550
 // the sum of odd numbers from 0-100 is 2500
+
+
+
+
+// 30. Write a script which generates a random hexadecimal number.
+
+const getRanHex = size => {
+    let result = [];
+    let hexRef = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'];
+  
+    for (let n = 0; n < size; n++) {
+      result.push(hexRef[Math.floor(Math.random() * 16)]);
+    }
+    return result.join('');
+  }
+
+console.log(getRanHex(1));
+// e
