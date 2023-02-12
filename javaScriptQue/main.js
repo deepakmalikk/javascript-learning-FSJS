@@ -532,6 +532,7 @@ console.log(longest)
 // United Kingdom of Great Britain and Northern Ireland (the)
 
 // - Extract all the countries containing only four characters from the countries array and print it as array
+let fourarr =[]
 for(let i of countryList){
     if(i.length==4){
         fourarr.push(i)
@@ -551,3 +552,10 @@ for(let i of countryList){
 
 // - Extract all the countries containing two or more words from the countries array and print it as array
 // - Reverse the countries array and capitalize each country and stored it as an array
+
+let reversedarr= []
+for(let i of countryList){
+    let capital=i.toUpperCase()
+    reversedarr.push(capital)
+}
+console.log(reversedarr)
